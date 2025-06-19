@@ -5,7 +5,7 @@ Template: hello-elementor
 Author: AD-IOS Digital Marketing Co.
 Author URI: https://ad-ios.com/support
 Description: A plain-vanilla &amp; lightweight theme for Elementor page builder
-Version: 1.7.2
+Version: 1.8.2
 */
 
 .dblock {
@@ -460,3 +460,11 @@ div#dev-template-v3 .header-main-container .header-link .set-social-icon {
 	margin-right: 0;
 }
 /* end of social icons header */
+
+
+.page-template-auto-generate .slick-next,
+.page-template-auto-generate .slick-prev {
+    border: 0!important;
+    background: transparent!important;
+    font-size: 0!important;
+}
